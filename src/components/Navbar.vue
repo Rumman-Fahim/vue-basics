@@ -39,6 +39,10 @@ export default {
 					path: '/binding/style',
 					name: 'Binding Style',
 				},
+				{
+					path: '/form',
+					name: 'Form',
+				},
 			],
 		};
 	},

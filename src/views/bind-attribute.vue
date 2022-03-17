@@ -1,14 +1,14 @@
 <template>
 	<div>
-		<a href="https://www.google.com">Go to google</a>
+		<a :href="link">Go to google</a>
 
 		<br />
 
-		<input type="text" placeholder="enter something" />
+		<input :type="inputType" placeholder="enter something" />
 
 		<br />
 
-		<img src="@/assets/logo.png" alt="" />
+		<img :src="image" alt="" />
 	</div>
 </template>
 
@@ -16,7 +16,11 @@
 export default {
 	name: 'Attribute',
 	data() {
-		return {};
+		return {
+			link: 'https://github.com/',
+			inputType: 'number',
+			image: require('@/assets/logo.png'),
+		};
 	},
 };
 </script>

@@ -7,6 +7,7 @@ import bindAttribute from '../views/bind-attribute.vue';
 import bindClass from '../views/bind-class.vue';
 import bindData from '../views/bind-data.vue';
 import bindStyle from '../views/bind-style.vue';
+import form from '../views/form.vue';
 
 Vue.use(VueRouter);
 
@@ -45,6 +46,11 @@ const routes = [
 		path: '/binding/style',
 		name: 'Style',
 		component: bindStyle,
+	},
+	{
+		path: '/form',
+		name: 'Form',
+		component: form,
 	},
 	// {
 	// 	path: '/user/:id',
