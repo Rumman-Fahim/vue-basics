@@ -43,6 +43,10 @@ export default {
 					path: '/form',
 					name: 'Form',
 				},
+				{
+					path: '/computed',
+					name: 'Computed',
+				},
 			],
 		};
 	},

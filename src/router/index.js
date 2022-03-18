@@ -8,6 +8,7 @@ import bindClass from '../views/bind-class.vue';
 import bindData from '../views/bind-data.vue';
 import bindStyle from '../views/bind-style.vue';
 import form from '../views/form.vue';
+import computed from '../views/computed.vue';
 
 Vue.use(VueRouter);
 
@@ -51,6 +52,11 @@ const routes = [
 		path: '/form',
 		name: 'Form',
 		component: form,
+	},
+	{
+		path: '/computed',
+		name: 'Computed',
+		component: computed,
 	},
 	// {
 	// 	path: '/user/:id',
