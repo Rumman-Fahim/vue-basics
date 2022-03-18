@@ -9,6 +9,13 @@ import bindData from '../views/bind-data.vue';
 import bindStyle from '../views/bind-style.vue';
 import form from '../views/form.vue';
 import computed from '../views/computed.vue';
+import componentBasic from '../views/component-basic.vue';
+import componentProps from '../views/component-props.vue';
+import componentEmit from '../views/component-emit.vue';
+import slotBasic from '../views/slot-basic.vue';
+import slotNamed from '../views/slot-named.vue';
+import slotProps from '../views/slot-props.vue';
+import refs from '../views/refs.vue';
 
 Vue.use(VueRouter);
 
@@ -58,6 +65,42 @@ const routes = [
 		name: 'Computed',
 		component: computed,
 	},
+	{
+		path: '/component/basic',
+		name: 'Basic',
+		component: componentBasic,
+	},
+	{
+		path: '/component/props',
+		name: 'Props',
+		component: componentProps,
+	},
+	{
+		path: '/component/emit',
+		name: 'Emit',
+		component: componentEmit,
+	},
+	{
+		path: '/slot/basic',
+		name: 'Basic',
+		component: slotBasic,
+	},
+	{
+		path: '/slot/named',
+		name: 'Named',
+		component: slotNamed,
+	},
+	{
+		path: '/slot/props',
+		name: 'Props',
+		component: slotProps,
+	},
+	{
+		path: '/refs',
+		name: 'Refs',
+		component: refs,
+	},
+
 	// {
 	// 	path: '/user/:id',
 	// 	component: User,

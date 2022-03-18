@@ -47,6 +47,30 @@ export default {
 					path: '/computed',
 					name: 'Computed',
 				},
+				{
+					path: '/component/basic',
+					name: 'Basic',
+				},
+				{
+					path: '/component/props',
+					name: 'Props',
+				},
+				{
+					path: '/component/emit',
+					name: 'Emit',
+				},
+				{
+					path: '/slot/basic',
+					name: 'Basic',
+				},
+				{
+					path: '/slot/named',
+					name: 'Named',
+				},
+				{
+					path: '/slot/props',
+					name: 'Props',
+				},
 			],
 		};
 	},
