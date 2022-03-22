@@ -72,6 +72,10 @@ export default {
 					name: 'Emit',
 				},
 				{
+					path: '/vuetify',
+					name: 'Vuetify',
+				},
+				{
 					path: '/slot/basic',
 					name: 'Basic',
 				},
@@ -99,6 +103,8 @@ nav a {
 	color: #2c3e50;
 	border-radius: 5px;
 	padding: 10px;
+	margin: 5px;
+	display: inline-block;
 }
 
 nav a.router-link-exact-active {

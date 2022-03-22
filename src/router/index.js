@@ -19,6 +19,7 @@ import slotBasic from '../views/slot-basic.vue';
 import slotNamed from '../views/slot-named.vue';
 import slotProps from '../views/slot-props.vue';
 import refs from '../views/refs.vue';
+import vuetify from '../views/vuetify.vue';
 
 Vue.use(VueRouter);
 
@@ -97,6 +98,11 @@ const routes = [
 		path: '/component/emit',
 		name: 'Emit',
 		component: componentEmit,
+	},
+	{
+		path: '/vuetify',
+		name: 'Vuetify',
+		component: vuetify,
 	},
 	{
 		path: '/slot/basic',
