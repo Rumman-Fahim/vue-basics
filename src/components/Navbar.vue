@@ -48,6 +48,18 @@ export default {
 					name: 'Computed',
 				},
 				{
+					path: '/watch',
+					name: 'Watch',
+				},
+				{
+					path: '/arrays',
+					name: 'Arrays',
+				},
+				{
+					path: '/objects',
+					name: 'Objects',
+				},
+				{
 					path: '/component/basic',
 					name: 'Basic',
 				},

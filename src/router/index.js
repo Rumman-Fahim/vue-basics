@@ -9,6 +9,9 @@ import bindData from '../views/bind-data.vue';
 import bindStyle from '../views/bind-style.vue';
 import form from '../views/form.vue';
 import computed from '../views/computed.vue';
+import watch from '../views/watch.vue';
+import arrays from '../views/arrays.vue';
+import objects from '../views/objects.vue';
 import componentBasic from '../views/component-basic.vue';
 import componentProps from '../views/component-props.vue';
 import componentEmit from '../views/component-emit.vue';
@@ -64,6 +67,21 @@ const routes = [
 		path: '/computed',
 		name: 'Computed',
 		component: computed,
+	},
+	{
+		path: '/watch',
+		name: 'Watch',
+		component: watch,
+	},
+	{
+		path: '/arrays',
+		name: 'Arrays',
+		component: arrays,
+	},
+	{
+		path: '/objects',
+		name: 'Objects',
+		component: objects,
 	},
 	{
 		path: '/component/basic',
