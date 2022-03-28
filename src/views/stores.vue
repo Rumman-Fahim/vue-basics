@@ -3,6 +3,7 @@
 		<v-btn @click="decreaseCount">Decrease</v-btn>
 		<h1>{{ getCount }}</h1>
 		<v-btn @click="increaseCount">Increase</v-btn>
+		<v-btn @click="resetCount(100)">Reset</v-btn>
 	</div>
 </template>
 
@@ -14,7 +15,7 @@ export default {
 		...mapGetters(['getCount']),
 	},
 	methods: {
-		...mapMutations(['increaseCount', 'decreaseCount']),
+		...mapMutations(['increaseCount', 'decreaseCount', 'resetCount']),
 	},
 };
 </script>

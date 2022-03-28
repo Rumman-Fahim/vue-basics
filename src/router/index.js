@@ -20,6 +20,7 @@ import slotNamed from '../views/slot-named.vue';
 import slotProps from '../views/slot-props.vue';
 import refs from '../views/refs.vue';
 import vuetify from '../views/vuetify.vue';
+import stores from '../views/stores.vue';
 
 Vue.use(VueRouter);
 
@@ -103,6 +104,11 @@ const routes = [
 		path: '/vuetify',
 		name: 'Vuetify',
 		component: vuetify,
+	},
+	{
+		path: '/stores',
+		name: 'Stores',
+		component: stores,
 	},
 	{
 		path: '/slot/basic',

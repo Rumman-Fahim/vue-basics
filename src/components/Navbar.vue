@@ -76,6 +76,10 @@ export default {
 					name: 'Vuetify',
 				},
 				{
+					path: '/stores',
+					name: 'Stores',
+				},
+				{
 					path: '/slot/basic',
 					name: 'Basic',
 				},
