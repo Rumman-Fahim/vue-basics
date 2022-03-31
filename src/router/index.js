@@ -21,6 +21,8 @@ import slotProps from '../views/slot-props.vue';
 import refs from '../views/refs.vue';
 import vuetify from '../views/vuetify.vue';
 import stores from '../views/stores.vue';
+import products from '../views/products.vue';
+import cart from '../views/cart.vue';
 
 Vue.use(VueRouter);
 
@@ -109,6 +111,16 @@ const routes = [
 		path: '/stores',
 		name: 'Stores',
 		component: stores,
+	},
+	{
+		path: '/products',
+		name: 'Products',
+		component: products,
+	},
+	{
+		path: '/cart',
+		name: 'Cart',
+		component: cart,
 	},
 	{
 		path: '/slot/basic',

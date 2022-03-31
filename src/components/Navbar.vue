@@ -80,6 +80,14 @@ export default {
 					name: 'Stores',
 				},
 				{
+					path: '/products',
+					name: 'Products',
+				},
+				{
+					path: '/cart',
+					name: 'Cart',
+				},
+				{
 					path: '/slot/basic',
 					name: 'Basic',
 				},
