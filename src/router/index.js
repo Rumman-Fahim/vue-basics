@@ -23,6 +23,7 @@ import vuetify from '../views/vuetify.vue';
 import stores from '../views/stores.vue';
 import products from '../views/products.vue';
 import cart from '../views/cart.vue';
+import axios from '../views/axios.vue';
 
 Vue.use(VueRouter);
 
@@ -123,6 +124,11 @@ const routes = [
 		component: cart,
 	},
 	{
+		path: '/axios',
+		name: 'Axios',
+		component: axios,
+	},
+	{
 		path: '/slot/basic',
 		name: 'Basic',
 		component: slotBasic,
@@ -142,8 +148,13 @@ const routes = [
 		name: 'Refs',
 		component: refs,
 	},
-
 	// {
+	// 	path: '/about',
+	// 	name: 'About',
+	// 	component: function () {
+	// 		return import('../views/About.vue');
+	// 	},
+	// },
 	// 	path: '/user/:id',
 	// 	component: User,
 	// 	children: [
@@ -163,12 +174,6 @@ const routes = [
 	// 	],
 	// },
 	// {
-	// 	path: '/about',
-	// 	name: 'About',
-	// 	component: function () {
-	// 		return import('../views/About.vue');
-	// 	},
-	// },
 ];
 
 const router = new VueRouter({

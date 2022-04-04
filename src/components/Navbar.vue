@@ -88,6 +88,10 @@ export default {
 					name: 'Cart',
 				},
 				{
+					path: '/axios',
+					name: 'Axios',
+				},
+				{
 					path: '/slot/basic',
 					name: 'Basic',
 				},
