@@ -24,6 +24,7 @@ import stores from '../views/stores.vue';
 import products from '../views/products.vue';
 import cart from '../views/cart.vue';
 import axios from '../views/axios.vue';
+import teaching from '../views/teaching.vue';
 
 Vue.use(VueRouter);
 
@@ -147,6 +148,11 @@ const routes = [
 		path: '/refs',
 		name: 'Refs',
 		component: refs,
+	},
+	{
+		path: '/teaching',
+		name: 'Teaching',
+		component: teaching,
 	},
 	// {
 	// 	path: '/about',

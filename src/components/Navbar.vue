@@ -103,6 +103,10 @@ export default {
 					path: '/slot/props',
 					name: 'Props',
 				},
+				{
+					path: '/teaching',
+					name: 'Teaching',
+				},
 			],
 		};
 	},
